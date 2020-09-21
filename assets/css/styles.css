@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgba(248, 248, 248, 0.836);
+}
+main{
+    max-width: 1100px;
+    margin: auto;
+}
+section{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(152, 256, 240, 5);
+    border-radius: 25px ;
+    box-shadow: 5px 5px 10px  rgba(152, 214, 117, 0.88);
+}
+.letras, .numeros{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.barra{
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    background-color: rgba(153, 214, 117, 0.623);
+    border-radius: 10px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.tema{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.color{
+    width: 30px;
+    height: 30px;
+}
+.retro{
+    background-image: url(../img/pexels-cottonbro-4835419.jpg);
+    background-size: 30px;
+    border: 1px solid #ffffff;
+}
+.Fclaro{
+    background-color: antiquewhite;
+    border: 1px solid #000;
+    border: 1px solid #ffffff;
+}
+.Foscuro{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+.retro:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Foscuro:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Fclaro:hover{
+    opacity: 0.5;
+}
+/* Temas */
+
+.theme.uno{
+    background-color: #333;
+    color: #ffffff;
+}
+.theme.uno h1{
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(152, 256, 240, 5);
+    border-radius: 25px ;
+    box-shadow: 5px 5px 10px  rgba(152, 214, 117, 0.88);
+    color: #333;
+}
+.theme.uno .barra{
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    background-color: rgba(199, 206, 194, 0.623);
+    border-radius: 10px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.theme.uno .teclado{
+    padding: 20px;
+    border: 2px solid  rgba(199, 206, 194, 0.623);
+    border-radius: 15px;
+    background-color:   rgba(199, 206, 194, 0.623);
+    box-shadow: 0 0 10px   rgba(199, 206, 194, 0.623);
+}
+.theme.dos{
+    background-image: url(../img/pexels-cottonbro-4835419.jpg);
+    background-size: 50%;
+    color:#ffffff;
+}
+.theme.dos h1{
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(152, 256, 240, 5);
+    border-radius: 25px ;
+    box-shadow: 5px 5px 10px  rgba(152, 214, 117, 0.88);
+    color: #333;
+    
+}
+/*  */
+.segunda{
+    display: flex;
+    justify-content: center;
+    padding-bottom:25px;
+}
+.teclado{
+    padding: 20px;
+    border: 2px solid rgba(153, 214, 117, 0.623);
+    border-radius: 15px;
+    background-color:  rgba(153, 214, 117, 0.623);
+    box-shadow: 0 0 10px  rgba(153, 214, 117, 0.623);
+}
+.fila{
+    padding: 5px;
+}
+.tecla{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius:5px;
+    border-radius: #000;
+}
+.tecla:hover{
+    color: #ffffff;
+    background-color:  rgba(103, 141, 81, 0.623);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100px;
+    border: 1px solid  rgba(153, 214, 117, 0.623);
+}
