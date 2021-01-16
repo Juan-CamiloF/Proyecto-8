@@ -12,7 +12,7 @@ const teclado = (event) => {
             if (barraLetras.innerText == '') {
                 barraLetras.innerText = 'A'
                 localStorage.setItem('letras', barraLetras.innerText)
-            } else if (barraLetras.innerText == 'A') {
+            }else if (barraLetras.innerText == 'A') {
                 swal('Ya esta la letra A')
             }
             if (localStorage.getItem('letras') == 'ABCDEFGHIJ') {
@@ -216,8 +216,8 @@ const teclado = (event) => {
                 }
             }
             break;
-        case '---':
-            alert('No funcional')
+        case '←':
+            barraLetras.innerHTML=barraLetras.innerText.slice(0,-1);
             break;
         case 'Reseat':
             barraLetras.innerText = ''
@@ -231,3 +231,4 @@ const teclado = (event) => {
 for (let i = 0; i < tecla.length; i++) {
     tecla[i].addEventListener('click', teclado)
 }
+
